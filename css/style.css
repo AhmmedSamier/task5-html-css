@@ -1,0 +1,516 @@
+@font-face
+{
+	font-family: 'LemonMilkbold';
+	src: url("../fonts/LemonMilkbold.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body
+{
+	background-color: #01232C;
+	text-transform: capitalize;
+	height: 3500px;
+}
+
+.container
+{
+	width: 1170px;
+	margin: auto;
+	box-shadow: 0 0 150px 5px #888;
+	background-color: #fff
+}
+
+.Header-Bar
+{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+.logo
+{
+	width: 250px;
+	overflow: hidden;
+	float: left;
+	margin: 20px 0 10px 60px
+}
+
+.logo img
+{
+	float: left;
+}
+
+.logo div
+{
+	float: left;
+}
+
+.logo div span:first-of-type
+{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 10px 5px 0px 10px;
+	font-family: 'LemonMilkbold', Fallback, sans-serif;
+}
+
+.logo div span:last-of-type
+{
+	font-size: 14px;
+	margin:0 0 0 10px;
+	letter-spacing: 3px;
+	font-family: 'Lato-Bold', Fallback, sans-serif;
+}
+
+.logo div span
+{
+	display: block;
+}
+
+.social
+{
+	float: left;
+	margin: 35px 0px 0px 80px;
+}
+
+.social i
+{
+	padding: 5px;
+}
+
+.Navigation
+{
+	float: right;
+	margin-top: 20px;
+}
+
+.Navigation ul
+{
+	list-style-type: none;
+	padding: 0
+}
+
+.Navigation ul li
+{
+	display: inline-block;
+	padding: 5px;
+}
+
+.Navigation ul li:last-of-type
+{
+	margin-right: 70px
+}
+
+.Navigation ul li a
+{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	padding: 5px;
+	font-family: 'Lato-Bold', Fallback, sans-serif;
+}
+
+.Banner
+{
+	background-image: url("../images/Banner.png");
+	color: #fff;
+	height: 750px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.Banner div
+{
+	position: relative;
+	left: 50%;
+	top: 120px;
+}
+
+.Banner h1
+{
+	font-size: 90px;
+	width: 400px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Fallback, sans-serif;
+	margin: 0;
+}
+
+.Banner p
+{
+	width: 450px;
+	font-family: 'Lato', Fallback, sans-serif;	
+}
+
+.About-Company
+{
+	background-color: #2f2339;
+	overflow: hidden;
+}
+
+.About-Company img
+{
+	width: 40%;
+	float: left;
+}
+
+.About-Company div
+{
+	float: left;
+	width: 40%;
+	color: #fff;
+	margin: 100px 0px 0 100px;
+}
+
+.About-Company h2
+{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Fallback, sans-serif;
+	margin: 0;
+}
+
+.Feature
+{
+	overflow: hidden;
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+.Feature div
+{
+	float: left;
+}
+
+.Feature > div:first-of-type
+{
+	width: 20%;
+	padding: 100px 1% 0 9%;
+}
+
+.Feature > div:first-of-type h2
+{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.Feature div+div
+{
+	width: 70%;
+}
+
+.Feature .icons
+{
+	background-color: #ee5d30;
+	overflow: hidden;
+	width: 70%;
+	float: right;
+}
+
+.Feature .icons div
+{
+	float: left;
+	width: 27%;
+	text-align: center;
+	color: #fff;
+	margin: 80px 0 40px;
+}
+
+.Feature .icons div span
+{
+	display: block;
+	margin: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Feature .icons div i
+{
+	padding: 10px 15px;
+	border-radius: 50px;
+	color: #666;
+	background-color: #fff;
+}
+
+.Feature .icons + div p
+{
+	float: left;
+	width: 25%;
+	margin-left: 4%;
+	font-family: 'Lato', Fallback, sans-serif;
+}
+
+.Feature button,.Articles > div:last-of-type button
+{
+	background-color: #2f2339;
+	border: none;
+}
+
+.Ipad-App
+{
+	color: #fff;
+	background-color: #2f2339;
+	width: 67%;
+	position: relative;
+	padding: 40px 0px 40px 100px;
+}
+
+.Ipad-App h2,.iPhone-App > div h2,.Articles > div:last-of-type h2,.Contact-info > div:first-of-type h2
+{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Fallback, sans-serif;
+}
+
+.Ipad-App > div 
+{
+	overflow: hidden;
+}
+
+.Ipad-App div div
+{
+	float: left;
+	width: 40%;
+	padding-right: 20px;
+	font-family: 'Lato', Fallback, sans-serif;
+}
+
+.Ipad-App div div h4,.iPhone-App > div h4
+{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 0
+}
+
+.Ipad-App img
+{
+	position: absolute;
+	width: 300px;
+	left: 85%;
+	top: 90px;
+}
+
+.Apple-App
+{
+	background-color: #ee5d30;
+	margin: 100px 0;
+	position: relative;
+}
+
+.Apple-App h2
+{
+	color: #fff;
+	font-size: 46px;
+	font-family: 'Montserrat', Fallback, sans-serif;
+	padding: 115px 200px;
+}
+
+.Apple-App img
+{
+	width: 400px;
+	position: absolute;
+	top: -75px;
+	left: 35%;
+}
+
+.iPhone-App
+{
+	overflow: hidden;
+	color: #fff;
+	position: relative;
+}
+
+.iPhone-App > div
+{
+	background-color: #2f2339;
+	width: 50%;
+	float: right;
+	padding: 40px 0 40px 200px;
+}
+
+.iPhone-App > div p
+{
+	width: 90%;
+	padding-bottom: 10px
+}
+
+.iPhone-App > img
+{
+	width: 200px;
+	position: absolute;
+	top: 100px;
+	left: 25%
+}
+
+.iPhone-App > div h4
+{
+	margin-top: 40px;
+}
+
+.Articles
+{
+	overflow: hidden;
+}
+
+.Articles > div:last-of-type
+{
+	background-color: #ee5d30;
+}
+
+.Articles > div:first-of-type
+{
+	float: left;
+	width: 40%;
+	padding-left: 7%;
+}
+
+.Articles > div:last-of-type
+{
+	float: right;
+	width: 45%;
+	color: #fff;
+	padding: 10% 0% 10% 8%
+}
+
+.Articles > div:last-of-type p
+{
+	width: 60%
+}
+
+.Articles > div div
+{
+	width: 46%;
+	margin: 10% 2.5% 0% 1%;
+	float: left;
+	/*border: 1px solid #f00*/
+}
+
+.Articles > div div img
+{
+	width: 200px
+}
+.Contact-info
+{
+	overflow: hidden;
+}
+
+.Contact-info > div:first-of-type
+{
+	background-image: url('../images/Contactinfo.png');
+	background-size: cover;
+	padding: 60px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.Contact-info > div:first-of-type h3
+{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Fallback, sans-serif;
+}
+
+.Contact-info > div:first-of-type p
+{
+	width: 60%;
+	margin: auto;
+}
+.inf
+{
+	padding: 60px 0 0 150px;
+	float: left;
+	width: 40%
+}
+
+.inf h4
+{
+	font-size: 22px
+}
+
+.inf div
+{
+	overflow: hidden;
+	width: 350px
+}
+
+.inf div div i
+{
+	float: left;
+	padding: 15px;
+	margin: 10px 10px 10px;
+	background-color: #ee5d30;
+	border-radius: 40px;
+	color: #fff
+}
+
+.inf div div span:first-of-type
+{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.8
+}
+
+.inf div div span+span
+{
+	display: block;
+}
+
+.form
+{
+	float: left;
+	width: 40%
+}
+
+.form h4
+{
+	margin-top: 100px;
+	font-size: 20px
+}
+
+.form div input[type='text']
+{
+	padding: 5px;
+	margin: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #999;
+	width: 350px
+}
+
+textarea
+{
+	width: 250px;
+	height: 50px;
+}
+
+.Footer
+{
+	margin-top: 15px;
+	background-color: #2f2339;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Lato';
+	letter-spacing: 2px
+}
+
+.Footer a
+{
+	color: #f56131;
+}
+
+button
+{
+	background-color: #f56131;
+	color: #fff;
+	padding: 15px 30px;
+	text-transform: capitalize;
+	font-family: 'Lato', Fallback, sans-serif;
+	border: none;
+	cursor: pointer;
+	margin: 10px 10px 0 0
+}
